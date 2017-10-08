@@ -22,6 +22,7 @@
   <title>将微博更新实时发送到微信 | blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="平时我们早上可能会把头条，网易，微博等各种客户端都浏览一遍，来获取各种信息，用爬虫可以做新闻的聚合，把你感兴趣的文章，推送到微信。">
+<meta name="keywords" content="爬虫">
 <meta property="og:type" content="article">
 <meta property="og:title" content="将微博更新实时发送到微信">
 <meta property="og:url" content="https://immortalhuang.github.io/2017/10/08/xuezhiqian-weibo/index.html">
@@ -31,7 +32,7 @@
 <meta property="og:image" content="https://immortalhuang.github.io/assets/images/xuezhiqian_weibo/xzq_wb_sy.png">
 <meta property="og:image" content="https://immortalhuang.github.io/assets/images/xuezhiqian_weibo/sy_content.png">
 <meta property="og:image" content="https://immortalhuang.github.io/assets/images/xuezhiqian_weibo/wx_result.png">
-<meta property="og:updated_time" content="2017-10-08T02:10:56.754Z">
+<meta property="og:updated_time" content="2017-10-08T02:29:50.152Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="将微博更新实时发送到微信">
 <meta name="twitter:description" content="平时我们早上可能会把头条，网易，微博等各种客户端都浏览一遍，来获取各种信息，用爬虫可以做新闻的聚合，把你感兴趣的文章，推送到微信。">
@@ -325,6 +326,17 @@ class DmozSpider(scrapy.Spider):
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">爬虫</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -541,11 +553,11 @@ gitment.render('gitment-ctn')
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+                <a href="javascript:void(0)" class="js-tag color3">爬虫</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">爬虫</a>
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
               </li>
             
             <div class="clearfix"></div>
